@@ -1,0 +1,70 @@
+.switch {
+    position: relative;
+    width: 40px;
+    height: 18px;
+    border-radius: 25px;
+    background-color: #54b2ff;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.switch--clicked {
+    background-color: #001e8d;
+}
+
+.switch__button {
+    position: absolute;
+    top: -1px;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #fff;
+    transition: 0.5s;
+    z-index: 2;
+}
+.switch__button--clicked {
+    left: 20px;
+}
+
+.effectBox {
+    overflow: hidden;
+    width: 40px;
+    height: 18px;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: 0.5s;
+    position: absolute;
+}
+
+.switch__effect {
+    border-radius: 50%;
+    background-color: #ffffff;
+    transition: 0.5s;
+    position: absolute;
+}
+.switch__effect:nth-child(1) {
+    width: 6px;
+    height: 6px;
+    top: 15px;
+    left: 25px;
+}
+.switch__effect:nth-child(2) {
+    width: 10px;
+    height: 10px;
+    top: 12px;
+    left: 30px;
+}
+
+.switch__effect--clicked:nth-child(1) {
+    top: 12px;
+    left: 6px;
+    width: 1px;
+    height: 1px;
+}
+
+.switch__effect--clicked:nth-child(2) {
+    top: 6px;
+    left: 13px;
+    width: 1px;
+    height: 1px;
+}
