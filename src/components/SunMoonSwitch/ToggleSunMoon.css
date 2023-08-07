@@ -1,5 +1,5 @@
 :root {
-    --sunColor: #e7c53f;
+    --sunColor: #ffd83a;
     --moonColor: #bbbbbb;
     --craterPrimaryColor: #847e7e;
     --craterSecondaryColor: #676666;
@@ -79,7 +79,6 @@
 
 .sunMoon--moon {
     background-color: var(--moonColor);
-    overflow: hidden;
 }
 
 .sunMoon__sunbeam--moon {
